@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logoimg{
-  width: 5vw;
+  width: 6vw;
 }
 
 #intro .carousel-item {
@@ -348,6 +348,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
   #nav-menu-container {
     display: none;
+  }
+  .logoimg{
+    width: 14vw;
+  }
+}
+@media (max-width: 400px) {
+  .logoimg{
+    width: 18vw;
   }
 }
 
@@ -638,11 +646,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*** About ***/
 .about-item {
   position: relative;
-  height: 350px;
+  height: 30rem;
   padding: 30px 25px;
   background: #FFFFFF;
   box-shadow: 0 0 45px rgba(0, 0, 0, .08);
   transition: .5s;
+  margin-bottom: 4rem;
 }
 
 .about-item:hover {
