@@ -255,6 +255,22 @@
 #searchModal .modal-content {
     background: rgba(250, 250, 250, .6);
 }
+
+@media (max-width: 1000px) {
+    .logoimg{
+      width: 10vw;
+    }
+  }
+  @media (max-width: 800px) {
+    .logoimg{
+      width: 14vw;
+    }
+  }
+  @media (max-width: 400px) {
+    .logoimg{
+      width: 18vw;
+    }
+  }
 /*** Navbar End ***/
 
 /*** Carousel Header Start ***/
