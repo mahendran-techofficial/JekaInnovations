@@ -24,7 +24,6 @@
     color: var(--primary);
 }
 
-
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -268,7 +267,7 @@
   }
   @media (max-width: 400px) {
     .logoimg{
-      width: 18vw;
+      width: 28vw;
     }
   }
 /*** Navbar End ***/
@@ -476,6 +475,30 @@
   .jkheading{
     font-size: 3rem;
     margin-top: 1rem;
+  }
+
+  @media (max-width: 1472px) {
+    .jkheading {
+      font-size: 2.5rem !important;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .jkheading {
+      font-size: 2rem !important;
+    }
+  }
+  
+  @media (max-width: 800px) {
+  .jkheading {
+    font-size: 1.5rem !important;
+  }
+  }
+  
+  @media (max-width: 400px) {
+    .jkheading {
+      font-size: 1rem !important;
+    }
   }
   
 

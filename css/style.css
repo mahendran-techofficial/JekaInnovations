@@ -30,6 +30,10 @@
   color: var(--accent);
 }
 
+.bg-primary{
+  background-color: #004A7F !important;
+}
+
 .back-to-top {
   position: fixed;
   right: 30px;
@@ -460,6 +464,9 @@
   .display-1 {
     font-size: 3.5rem !important;
   }
+  .jkheading {
+    font-size: 2.5rem !important;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -468,6 +475,9 @@
   }
   .display-1 {
     font-size: 3rem !important;
+  }
+  .jkheading {
+    font-size: 2rem !important;
   }
 }
 
@@ -483,14 +493,21 @@
   .fs-5 {
     font-size: 1rem !important;
 }
+
+.jkheading {
+  font-size: 1.5rem !important;
+}
 }
 
 @media (max-width: 400px) {
   .logoimg {
-    width: 18vw;
+    width: 28vw;
   }
   .display-1 {
     font-size: 1.5rem !important;
+  }
+  .jkheading {
+    font-size: 1rem !important;
   }
 }
 
